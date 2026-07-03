@@ -11,11 +11,14 @@ Code tested on R under development (2025-02-20 r87772), running Linux Mint 22.1 
 Attached packages: india 0.1-2, L1pack 0.62-4
 
 CONTENTS:
-- case_study/stackloss.R: R commands for the analysis of Brownlee's Stack loss data (Sections 4.1 from manuscript).
+- case_study/marietta.R: R commands for the analysis of Martin Marietta data (Sections 4.1 from manuscript).
 - case_study/skeena.R: R commands for the analysis of Skeena river sockeye salmon data (Sections 4.2 from manuscript).
-- case_study/marietta.R: R commands for the analysis of Martin Marietta data (Sections 4.3 from manuscript).
-- case_study/aircraft.R: R commands for the analysis of Aircraft data (Sections 4.4 from manuscript).
+- case_study/remarks.R: R commands for the evaluation of the computational effort required by the proposed methodology (Table 5 and Figure 7 from manuscript).
 - code/MSOM.R: R functions to compute measures for outlier detection.
-- code/Recruits.R: functions required for plotting Figure 3.
-- code/envelope.R: R function for QQ-plot with simulated envelopes for residuals.
+- code/Recruits.R: functions required for plotting Figure 4.
+- code/envelope.R: R function for QQ-plot with simulated envelopes based on 'standarized' residuals (for the simulated envelopes for 'quantile' residuals the 'envelope' function from 'india' was used).
+- code/iterations.R: R function for computation of full iterated deletion estimates using Barrodale-Roberts (BR) and IRLS (Phillips, 2002) algorithms.
+- supplement/suppl_stackloss.R: R commands for the analysis of Brownlee's Stack loss data (Sections 1 from Supplement).
+- supplement/suppl_aircraft.R: R commands for the analysis of Aircraft data (Sections 1 from Supplement).
+- supplement/suppl_sec-2.R: R commands for Figure 5 displayed in Section 2 from Supplement.
 - README.md: this file.
